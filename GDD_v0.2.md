@@ -103,20 +103,15 @@ Os elementos principais deverão possuir aparência facilmente reconhecível.
 
 ### Elementos da identidade
 
-**Personagem:**
-Humanoide simples e de fácil identificação.
+**Personagem:** humanoide simples e de fácil identificação.
 
-**Obstáculos:**
-Formas geométricas como blocos, barreiras e objetos pontiagudos.
+**Obstáculos:** formas geométricas como blocos, barreiras e objetos pontiagudos.
 
-**Cenário:**
-Ambientes simples, com poucos elementos decorativos.
+**Cenário:** ambientes simples, com poucos elementos decorativos.
 
-**Área de chegada:**
-Elemento visual destacado para indicar ao jogador onde termina a fase.
+**Área de chegada:** elemento visual destacado para indicar ao jogador onde termina a fase.
 
-**Interface:**
-Textos e indicadores simples, priorizando a leitura rápida.
+**Interface:** textos e indicadores simples, priorizando a leitura rápida.
 
 ---
 
@@ -347,9 +342,7 @@ O planejamento das fases seguirá uma estrutura simples.
 └───────────────────────────┘
 ```
 
-Objetivo: apresentar o funcionamento básico do jogo.
-
----
+**Objetivo:** apresentar o funcionamento básico do jogo.
 
 ### Fase 2
 
@@ -367,9 +360,7 @@ Objetivo: apresentar o funcionamento básico do jogo.
 └───────────────────────────┘
 ```
 
-Objetivo: aumentar a quantidade de obstáculos e reduzir os espaços disponíveis.
-
----
+**Objetivo:** aumentar a quantidade de obstáculos e reduzir os espaços disponíveis.
 
 ### Fase 3
 
@@ -387,7 +378,7 @@ Objetivo: aumentar a quantidade de obstáculos e reduzir os espaços disponívei
 └───────────────────────────┘
 ```
 
-Objetivo: apresentar o maior nível de desafio, utilizando obstáculos em posições variadas e espaços mais estreitos.
+**Objetivo:** apresentar o maior nível de desafio, utilizando obstáculos em posições variadas e espaços mais estreitos.
 
 ---
 
@@ -485,7 +476,7 @@ REINICIAR     PONTUAÇÃO
                 ↓
           PONTUAÇÃO FINAL
                 ↓
-       JOGO CONCLUÍDO
+           JOGO CONCLUÍDO
 ```
 
 ---
@@ -640,8 +631,8 @@ O jogo será desenvolvido em 2D, utilizando uma identidade visual simples e obje
 
 O level design será dividido em três fases:
 
-**Fase 1:** introdução e aprendizado;
-**Fase 2:** aumento da quantidade e complexidade dos obstáculos;
+**Fase 1:** introdução e aprendizado.
+**Fase 2:** aumento da quantidade e complexidade dos obstáculos.
 **Fase 3:** desafio final com maior exigência de reflexo e precisão.
 
 O projeto mantém como base o seguinte core loop:
